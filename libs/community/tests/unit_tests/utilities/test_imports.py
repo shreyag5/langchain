@@ -29,7 +29,6 @@ EXPECTED_ALL = [
     "MetaphorSearchAPIWrapper",
     "MiimansaUtility",
     "NasaAPIWrapper",
-    "ragatouille",
     "RivaASR",
     "RivaTTS",
     "AudioStream",

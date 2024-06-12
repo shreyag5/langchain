@@ -1,4 +1,4 @@
-# This module contains utility classes and functions for interacting with MiimansaClinicalTextRetreiver.
+# This module contains utility classes and functions for interacting with MiimansaClinicalTextRetriever
 
 import csv
 import os

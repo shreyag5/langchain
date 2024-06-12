@@ -24,6 +24,7 @@ EXPECTED_ALL = [
     "LlamaIndexGraphRetriever",
     "LlamaIndexRetriever",
     "MetalRetriever",
+    "MiimansaClinicalTextRetriever",
     "MilvusRetriever",
     "OutlineRetriever",
     "PineconeHybridSearchRetriever",

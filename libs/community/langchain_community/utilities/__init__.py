@@ -87,6 +87,9 @@ if TYPE_CHECKING:
     from langchain_community.utilities.metaphor_search import (
         MetaphorSearchAPIWrapper,
     )
+    from langchain_community.utilities.miimansa import (
+        MiimansaUtility,
+    )
     from langchain_community.utilities.mojeek_search import (
         MojeekSearchAPIWrapper,
     )
@@ -203,6 +206,7 @@ __all__ = [
     "MaxComputeAPIWrapper",
     "MerriamWebsterAPIWrapper",
     "MetaphorSearchAPIWrapper",
+    "MiimansaUtility",
     "MojeekSearchAPIWrapper",
     "NVIDIARivaASR",
     "NVIDIARivaStream",
@@ -267,6 +271,7 @@ _module_lookup = {
     "MaxComputeAPIWrapper": "langchain_community.utilities.max_compute",
     "MerriamWebsterAPIWrapper": "langchain_community.utilities.merriam_webster",
     "MetaphorSearchAPIWrapper": "langchain_community.utilities.metaphor_search",
+    "MiimansaUtility": "langchain_community.utilities.miimansa",
     "MojeekSearchAPIWrapper": "langchain_community.utilities.mojeek_search",
     "NVIDIARivaASR": "langchain_community.utilities.nvidia_riva",
     "NVIDIARivaStream": "langchain_community.utilities.nvidia_riva",

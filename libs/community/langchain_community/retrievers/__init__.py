@@ -89,6 +89,9 @@ if TYPE_CHECKING:
     from langchain_community.retrievers.metal import (
         MetalRetriever,
     )
+    from langchain_community.retrievers.miimansa import (
+        MiimansaClinicalTextRetriever,
+    )
     from langchain_community.retrievers.milvus import (
         MilvusRetriever,
     )
@@ -170,6 +173,7 @@ _module_lookup = {
     "LlamaIndexGraphRetriever": "langchain_community.retrievers.llama_index",
     "LlamaIndexRetriever": "langchain_community.retrievers.llama_index",
     "MetalRetriever": "langchain_community.retrievers.metal",
+    "MiimansaClinicalTextRetriever": "langchain_community.retrievers.miimansa",
     "MilvusRetriever": "langchain_community.retrievers.milvus",
     "OutlineRetriever": "langchain_community.retrievers.outline",
     "PineconeHybridSearchRetriever": "langchain_community.retrievers.pinecone_hybrid_search",  # noqa: E501
@@ -225,6 +229,7 @@ __all__ = [
     "LlamaIndexGraphRetriever",
     "LlamaIndexRetriever",
     "MetalRetriever",
+    "MiimansaClinicalTextRetriever",
     "MilvusRetriever",
     "NeuralDBRetriever",
     "OutlineRetriever",
